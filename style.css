@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-nav-ul, .right-nav-ul {
+  display: flex;
+  align-items: center;
+  /* margin-left: 1.15rem;
+  margin-right: 1.15rem; */
+  margin: 1.15rem;
+}
+
+.left-nav-ul>li, .right-nav-ul>li{
+  padding: 0.6rem;
+}
+.right-nav-ul>img {
+  padding: 0.2rem;
+}
