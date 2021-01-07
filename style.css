@@ -18,10 +18,18 @@ body {
   display: flex;
   align-items: center;
   margin: 0.8rem 1.3rem;
+  
 }
 
 .left-nav-ul>li, .right-nav-ul>li{
   padding: 0.6rem;
+}
+
+.nav-bar a {
+  color: #000;
+}
+.nav-bar a:visited {
+  color: #000;
 }
 
 #block-icon {
@@ -123,9 +131,6 @@ button:hover {
 
 .footer a:visited {
   color: #7075a1;
-}
-.nav-bar a:visited {
-  color: #000;
 }
 .footer a:hover, .nav-bar a:hover{
   text-decoration: underline;
